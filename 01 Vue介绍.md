@@ -75,7 +75,7 @@ Object.defineProperty(obj, prop, descriptor)
 
  被传递给函数的对象
 
-> 在ES6中，由于 Symbol类型的特殊性，用Symbol类型的值来做对象的key与常规的定义或修改不同，而`Object.defineProperty` 是定义key为Symbol的属性的方法之一。
+> 在ES6中，由于 Symbol类型的特殊性，用Symbol类型的值来做对象的key与常规的定义或修改不同，而`Object.defineProperty` 是定义`key`为Symbol的属性的方法之一。
 
 #### 实例
 
